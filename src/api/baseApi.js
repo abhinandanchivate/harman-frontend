@@ -6,7 +6,7 @@ const envBase = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
 const normalizedBase = envBase.endsWith('/') ? envBase.slice(0, -1) : envBase;
 const apiRoot = `${normalizedBase}/api/`;
 
-const axiosInstance = axios.create({
+export const axiosInstance = axios.create({
   baseURL: apiRoot,
   withCredentials: true,
 });

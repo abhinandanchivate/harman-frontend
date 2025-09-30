@@ -92,7 +92,7 @@ Each module under `src/api/` injects endpoints into the shared RTK Query `baseAp
 
 `Auth`, `User`, `Role`, `Patient`, `Appointment`, `Waitlist`, `Observation`, `TelemedicineSession`, `TelemedicineConsent`, `TelemedicineMetric`, `Notification`, `NotificationTemplate`, `NotificationCampaign`, `RiskScore`, `TrainingJob`, `ModelVersion`, `PersonalizedAlert`, `AuditEvent`, `AuditExport`, `AuditAnomaly`, `HL7`.
 
-Refer to [`docs/backend-endpoints.md`](docs/backend-endpoints.md) for a hand-audited reference of every DRF endpoint (methods, payloads, auth requirements, and associated tag type).
+Refer to [`docs/backend-endpoints.md`](docs/backend-endpoints.md) for a hand-audited reference of every DRF endpoint (methods, payloads, auth requirements, associated tag type) along with copy-pasteable Axios samples for common workflows.
 
 ## Known limitations
 
